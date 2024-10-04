@@ -63,16 +63,16 @@ func main() {
 
 	// // Работа с указателями
 	// first := 100
-	// var second *int = &first
+	// second := first
 	// first++
-	// fmt.Println("First:", first)   //First: 101
-	// fmt.Println("Second:", second) //Second: 100
+	// fmt.Println("First:", first)   // First: 101
+	// fmt.Println("Second:", second) // Second: 100
 
 	// first := 100
 	// var second *int = &first
 	// first++
-	// fmt.Println("First:", first)   //First: 101
-	// fmt.Println("Second:", second) //Second: 0xc00000a0e8
+	// fmt.Println("First:", first)   // First: 101
+	// fmt.Println("Second:", second) // Second: 0xc00000a0e8
 
 	// // Следование указателю
 	// first := 100
@@ -86,8 +86,8 @@ func main() {
 	// second := &first
 	// first++
 	// *second++
-	// fmt.Println("First:", first)
-	// fmt.Println("Second:", *second)
+	// fmt.Println("First:", first) // 102
+	// fmt.Println("Second:", *second) // 102
 
 	// first := 100
 	// second := &first
@@ -126,5 +126,4 @@ func main() {
 	fmt.Println(*secondPosition) // Charlie
 	sort.Strings(names[:])
 	fmt.Println(*secondPosition) // Bob
-
 }

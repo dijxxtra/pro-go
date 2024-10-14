@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // //1.
 // func printPrice() {
 // 	kayakPrice := 275.00
@@ -227,10 +225,10 @@ func main() {
 	// fmt.Println("Total:", total)
 
 	//10. Использование ключевого слова defer
-	products := map[string]float64{
-		"Kayak":      275,
-		"Lifejacket": 48.95,
-	}
-	_, total := calcTotalPrice(products)
-	fmt.Println("Total:", total)
+	// products := map[string]float64{
+	// 	"Kayak":      275,
+	// 	"Lifejacket": 48.95,
+	// }
+	// _, total := calcTotalPrice(products)
+	// fmt.Println("Total:", total)
 }
